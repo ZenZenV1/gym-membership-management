@@ -1,0 +1,10 @@
+^C:\CODE\OOPS\BUILD\CMAKEFILES\775054C8418F3E7FC95BA07F18BDB454\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/code/OOPS/GymMembershipManagement -BC:/code/OOPS/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/code/OOPS/build/GymMembershipManagement.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

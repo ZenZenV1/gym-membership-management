@@ -1,0 +1,3 @@
+C:/code/OOPS/build/CMakeFiles/gym_membership.dir
+C:/code/OOPS/build/CMakeFiles/ALL_BUILD.dir
+C:/code/OOPS/build/CMakeFiles/ZERO_CHECK.dir
